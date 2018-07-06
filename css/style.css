@@ -1,0 +1,43 @@
+#background{
+  background-image: url('http://www.27estore.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/b/a/baca8b9502284fb710866dda0203577f_WPBO_136_ga_2.jpg');
+   background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#counter
+{
+  width: 85px;
+  border-style: inset;
+  border-width: 5px;
+  margin-left:0px;
+  border-radius:60px;
+}
+
+#control
+{
+  width:100px;
+  background-color:#00266;
+  border-radius:120px;
+}
+
+.btn
+{
+    margin-left:30px;
+    margin-bottom:5px;
+    border-radius: 5px;
+}
+
+.well
+{
+  background-color: #002266;
+  border-color:black;
+  border-width: 5px;
+  
+}

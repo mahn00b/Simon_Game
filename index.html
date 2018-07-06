@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Says by N00bTech</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Original+Surfer|Pacifico" rel="stylesheet">
+<div id="background"></div>
+<div class="container" style="background-color: #ffffff">
+  <div class="jumbotron">
+    <div class="page-header" style="border-radius:90px;padding-top:1px;background-color: #002266;">
+      <h2 id="nbText" class="text-center animated fadeIn"><small style="color:black;font-family:Pacifico, cursive;color:#99ddff;">N00bTech presents</small></h2>
+    </div>
+    <!--./page-header -->
+    <div class="row">
+      <div id="mainText" class="col-lg-2">
+        <h2 class="text-center animated rubberBand" style="font-size:40px; font-family:'Original  Surfer', cursive; color:#99aaff;">Simon Says</h2>
+      </div>
+      <div class="col-lg-2 col-sm-4 col-xs-3">
+        <div id="control" class="well container animated flipInX">
+          <div class="row">
+            <div class="row">
+              <button id="start" class="btn  btn-primary">Start</button>
+            </div>
+            <div class="row">
+              <button id="stop" class="btn btn-danger">Stop</button>
+            </div>
+          </div>
+          <div class="row">
+            <h2 id="counter" class="text-center" style="background-color:#cccccc;color:#002266;">00</h2>
+          </div>
+        </div>
+      </div>
+      <!--./remote well-->
+      <div class="col-lg-offset-4 col-sm-offset-5">
+        <span id="gameBoard" class="animated rollIn" style="display: inline-block; width: 30em; height: 30em"><span style="position: relative; display: inline-block; width: 30em; height: 30em"><i style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:14.999999999999998em solid #252a34;border-radius:14.999999999999998em;left:0em;top:0em"></i><i id = "green" class="entry" style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:13.636363636363635em solid #29cd1a;border-bottom:none;border-right:none;border-top-left-radius:13.636363636363635em;left:0.6818181818181818em;top:0.6818181818181818em"></i><i id="red" class="entry" style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:13.636363636363635em solid #cc0000;border-bottom:none;border-left:none;border-top-right-radius:13.636363636363635em;left:15.68181818181818em;top:0.6818181818181818em"></i><i id="blue" class="entry" style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:13.636363636363635em solid #1a2bcd;border-top:none;border-left:none;border-bottom-right-radius:13.636363636363635em;left:15.68181818181818em;top:15.68181818181818em"></i><i id = "yellow" class="entry" style="position: absolute;display:inline-block;width:0;height:0;line-height:0;border:13.636363636363635em solid #edeb0b;border-top:none;border-right:none;border-bottom-left-radius:13.636363636363635em;left:0.6818181818181818em;top:15.68181818181818em"></i></span></span>
+      </div>
+    </div>
+    <div class="well  well-responsive">
+      <h3 class="text-center btn-link animated slideInUp" data-toggle="collapse" data-target="#instructions" style="font-family: 'Original Surfer', cursive; font-size:24px; color: white;">How To Play +</h4>
+        <div id="instructions" class="text-center collapse" style="padding-bottom:8px; font-family: 'indie flower'; font-size: 20px; color: white; marign-right:0px;">Press start to play. Your goal is to imitate the colors selected by the computer. listen for the sounds to help you keep track of the sequence. After every succesful attempt, an additional color will be added to the sequence. Good Luck!</div>
+    </div>
+    <!--./instructions well -->
+  </div>
+</div>
+<!-- ./jumbotron -->
+</div>
+<!--./container -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
