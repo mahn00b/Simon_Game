@@ -42,8 +42,8 @@ $("#start").on('click', function() {
   console.log('game has started');
 
    
-  sequence = new Array();
-  guess = new Array();
+  sequence = [];
+  guess = [];
   addToSequence();
   console.log(sequence);
   playerMove = false;
@@ -154,7 +154,7 @@ function validateGuess() {
     playerMove = false;
     addToSequence();
     playList = sequence.slice();
-    guess = new Array();
+    guess = [];
     timerRef = setTimeout(playSequence, 1000);
     return true;
   } else if (isValid) {
@@ -162,7 +162,7 @@ function validateGuess() {
     return true;
   } else if (!isValid) {
     alert('wrong Guess');
-    guess = new Array();
+    guess = [];
     playList = sequence.slice();
     timerRef = setTimeout(playSequence, 1000);
     return false;
