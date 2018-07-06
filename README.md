@@ -2,7 +2,7 @@ Simon Game
 ==========
 
 
-###     Description
+### Description
 One of my earlier projects, I created this game as one of the projects required to complete the front-end developer
 certification at freecodecamp. Originally developed on codepen, and moved to github. This game is based on the famous
 [Simon Game](https://en.wikipedia.org/wiki/simon_game). You can check it out right
